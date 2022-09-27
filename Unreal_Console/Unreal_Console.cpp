@@ -6,6 +6,30 @@
 int main()
 {
     std::cout << "Hello World!\n";
+
+    int health = 100;
+
+    std::cout << health << std::endl;
+
+    int level = 2;
+
+    float enemyHealth = 30.3f;
+
+    std::cout << enemyHealth << std::endl;
+
+    float myHealth = 20.0;
+
+    double hugeHealth = 30;
+
+    bool playing = false;
+
+    std::string name = "Joe Jhonson";
+
+    std::cout << name << std::endl;
+
+    char firstLetter = 'L';
+
+    std::cout << firstLetter << std::endl;
 }
 
 // Executar programa: Ctrl + F5 ou Menu Depurar > Iniciar Sem Depuração
